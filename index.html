@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>click.</title>
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+            <a class="main-link" href="play.html">
+            <div class="wrapper">
+
+                <div class="hero" id="home-bg">
+                    <img src="images/wht_logo.png" class="home-logo">
+                    <br>
+                    <p id="glow">Click anywhere to start connecting.</p>
+                </div>
+
+            </div>
+            </a>
+
+
+            <script src="js/three.r119.min.js"></script>
+            <script src="js/vanta.fog.min.js"></script>
+            <script>
+            VANTA.FOG({
+              el: "#home-bg",
+              mouseControls: true,
+              touchControls: true,
+              gyroControls: false,
+              minHeight: 200.00,
+              minWidth: 200.00,
+              highlightColor: 0x9eb9d7,
+              midtoneColor: 0x3a64eb,
+              lowlightColor: 0x54a0,
+              baseColor: 0x8d94ca,
+              blurFactor: 0.90,
+              speed: 5.00,
+              zoom: 0.10
+            })
+            </script>
+  </body>
+</html>

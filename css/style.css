@@ -1,0 +1,151 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Osmose;
+
+}
+
+#wrapper{
+  height: 100vh;
+  width: 100%;
+  opacity: 0;
+  padding: none;
+  margin: none;
+  transition: opacity 3s ease;
+}
+
+.hero{
+  margin: none;
+  padding: none;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-size: 30px;
+}
+
+.home-logo{
+  width: 80%;
+  height 80%;
+  animation: pulsing 8s ease-in-out infinite;
+}
+
+#glow {
+  text-align: center;
+  -webkit-animation: glow 4s ease-in-out infinite alternate;
+  -moz-animation: glow 4s ease-in-out infinite alternate;
+  animation: glow 4s ease-in-out infinite alternate;
+}
+
+.main-link{
+  text-decoration: none;
+}
+
+#activity{
+  font-size: 50px;
+  border: 1px solid;
+  border-color: white;
+  border-radius: 12px;
+  padding: 25px;
+  max-width: 900px;
+  animation: fadeIn 20s ease-in linear;
+}
+
+.randomButton{
+  color: white;
+  font-size: 20px;
+  border: 1px solid;
+  border-color: white;
+  border-radius: 80%;
+  background-color: transparent;
+  width:400px;
+}
+
+.randomButton:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.randomButton:hover{
+  background-color: white;
+  color: black;
+  border-color: black;
+  cursor: pointer;
+}
+.randomButton p{
+  padding: 10px;
+}
+
+/*.marquee{
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  overflow: hidden;
+  background-color: white;
+}*/
+
+.container {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.scrolling {
+  animation: marquee 30s linear infinite;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #000, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #9999ff, 0 0 50px #9999ff, 0 0 60px #9999ff, 0 0 70px #ccccff;
+  }
+  to {
+    text-shadow: 0 0 20px #000, 0 0 30px #fff, 0 0 40px #9999ff, 0 0 50px #9999ff, 0 0 60px #9999ff, 0 0 70px #9999ff, 0 0 80px #9999ff;
+  }
+}
+
+@keyframes pulsing {
+  0%   {opacity: 0%;}
+ 20%  {opacity: 100%;}
+ 40%  {opacity: 0%;}
+ 60% {opacity: 0%;}
+ 80% {opacity: 100%;}
+ 100% {opacity: 0%;}
+}
+
+@keyframes fadeIn {
+  from{
+    opacity: 0%;
+  }
+
+  to{
+    opacity: 100%;
+  }
+}
+ @font-face {
+    font-family: "Osmose";
+    src: url("../fonts/Osmose-Light.woff") format('woff');
+}

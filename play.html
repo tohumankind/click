@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>click.</title>
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+
+            <div class="wrapper">
+
+                <div class="hero" id="home-bg">
+                    <div id="activity">
+                      <!--Text will display here--->
+                      Let's start a conversation.
+                    </div>
+                    <br>
+                    <button class="randomButton"onclick="newAct()"><p>what else?</p></button>
+                </div>
+
+                 <div class="container">
+                  <div class="scrolling">
+                    An experience dedicated to digital intimacy. &nbsp; ○ &nbsp; Click is intended to use over video conferencing platforms to break tension and make a connection. &nbsp; ○ &nbsp; Enjoy your conversation and may it be fruitful. &nbsp; ○ &nbsp;
+                  </div><div class="scrolling" aria-hidden="true">
+                    An experience dedicated to digital intimacy. &nbsp; ○ &nbsp; Click is intended to use over video conferencing platforms to break tension and make a connection. &nbsp; ○ &nbsp; Enjoy your conversation and may it be fruitful. &nbsp; ○ &nbsp;
+                  </div>
+                  <!-- … -->
+                </div>
+            </div>
+
+
+
+            <script src="js/script.js"></script>
+            <script src="js/three.r119.min.js"></script>
+            <script src="js/vanta.fog.min.js"></script>
+            <script>
+            VANTA.FOG({
+              el: "#home-bg",
+              mouseControls: true,
+              touchControls: true,
+              gyroControls: false,
+              minHeight: 200.00,
+              minWidth: 200.00,
+              blurFactor: 0.90,
+              speed: 5.00,
+              zoom: 0.10
+            })
+            </script>
+  </body>
+</html>
