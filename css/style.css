@@ -111,7 +111,7 @@ html,body{
 }
 
 .scrolling {
-  animation: marquee 30s linear infinite;
+  animation: marquee 40s linear infinite;
   display: inline-block;
   padding-right: 10px;
 }
