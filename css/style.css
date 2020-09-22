@@ -12,7 +12,7 @@ html,body{
   opacity: 0;
   padding: none;
   margin: none;
-  transition: opacity 3s ease;
+  transition: opacity 10s ease-in;
 }
 
 .hero{
@@ -63,6 +63,7 @@ html,body{
   border-radius: 80%;
   background-color: transparent;
   width:400px;
+  font-family: Osmose;
 }
 
 .randomButton:focus {
@@ -75,6 +76,7 @@ html,body{
   color: black;
   border-color: black;
   cursor: pointer;
+  font-style: italic;
 }
 .randomButton p{
   padding: 10px;
