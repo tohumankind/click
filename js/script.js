@@ -4,7 +4,7 @@ window.onload = function(){
 	document.getElementById('wrapper').style.opacity="1";
 }
 
-var acts = ['What was the first notable year of your life?','Do you ever feel precious? Do you want to?','How do you care for yourself?','Are you a morning person or a night person? Why?', 'Drink some water!', 'Do a downward dog.','What do you carry with you everywhere?','What was the most interesting close-call that you’ve ever seen not-happen?','Who is someone “famous” who deserves more flowers?','If you could have any pet in the world what would it be?','If a robber came in right now and said they wouldn’t kill you if you sing one song, word for word, what song would it be? Now sing it…','What’s something that you think shouldn’t be illegal?','Where do you feel resistance in your life?','Have you held onto any mementos from your childhood? If yes, what does it mean to you?','What is your relationship to the word radical? Revolutionary?','What is something you have learned outside of the educational system? What did that learning look like?']
+var acts = ['Create a collection of 8 empowering words.','Choose 4 colors to represent the nature of activism and name them.','What are typefaces that capture the essence of dreams and reality?','Create 6 pairs of objects, words, and phrases that are counter-intuitive. (through images like diptych pairs or with type)', 'Drink some water!', 'Do a downward dog.','Gather 10 design artifacts that you have found compelling lately.','Who are you creating for?','Why is the work you’re doing important to you?','Is the work you’re making accessible?','How are you pushing your aesthetic choices?','Can you defend the design decisions you’ve made?']
 
 function newAct(){
 
